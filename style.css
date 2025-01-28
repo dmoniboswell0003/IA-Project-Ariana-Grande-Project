@@ -101,3 +101,10 @@ img {
   text-align: center;
 }
 
+li {
+  color: black;
+  border: solid;
+  border-color: darkgrey;
+  background: lightgrey;
+  font-family: cursive;
+}
