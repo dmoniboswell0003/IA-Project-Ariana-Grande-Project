@@ -1,0 +1,103 @@
+body {
+  background: white;
+}
+
+p {
+  color: black;
+  border: solid;
+  border-color: darkgrey;
+  background: lightgrey;
+  font-family: cursive;
+}
+
+h1 {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+  border: groove;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+  border: groove;
+  text-align: center;
+}
+
+.overlook-images {
+  width: 50;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+
+.discography {
+  color: black;
+  border: solid;
+  width: 350px;
+}
+
+.overview {
+  color:skyblue;
+  border:solid;
+  width: 350px;
+}
+
+.accolades {
+  color: goldenrod;
+  border: solid;
+  width: 350px;
+
+  
+}
+
+.screentime {
+  color: hotpink;
+  border: solid;
+  width: 350px;
+  
+}
+
+.discography:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+.screentime:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+.overview:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+.accolades:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+.Home {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+  border: groove;
+  text-align: center;
+}
+
